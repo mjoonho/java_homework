@@ -1,5 +1,5 @@
 public class BUS extends TRANSPORT {
-        int Passenger;
+        int Passenger = 0;
         int maxPassenger = 30;
         boolean Running = true;
         int fee = 1000;
@@ -10,8 +10,8 @@ public class BUS extends TRANSPORT {
         Running = running;
         this.fee = fee;
     }
-    public void BUSInfo(){
-        System.out.println(this.fee + Passenger );
+    public void showInfo(){
+        System.out.println(this.fee + Passenger);
     }
 }
 
