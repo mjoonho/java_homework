@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class SHOW {
+public class SHOW {
+    BUS bus1 = new BUS(0, 30, true, 1000);
+
 }
