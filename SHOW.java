@@ -1,7 +1,9 @@
 public class SHOW {
     public static void main(String[] args) {
-        BUS bus1 = new BUS(0, 30, true, 1000);
-        bus1.showInfo();
+        Transport bus1 = new Bus(1);
+        bus1.showTransport();
+        Transport bus2 = new Bus(2);
+        bus2.showTransport();
 
     }
 
