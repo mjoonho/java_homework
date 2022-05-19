@@ -10,8 +10,8 @@ public class BUS extends TRANSPORT {
         Running = running;
         this.fee = fee;
     }
-    public BUSInfo(){
-        System.out.println(this.fee);
+    public void BUSInfo(){
+        System.out.println(this.fee + Passenger );
     }
 }
 
